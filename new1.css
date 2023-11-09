@@ -1,0 +1,47 @@
+
+.article 
+{
+position: relative;
+}
+.article .nn
+{padding-right:51px;
+
+}
+.article::before
+{
+content:"";
+width:10px;
+height: 10px;
+right:50px;
+top:22px;
+border-width: 10px;
+border-style: solid;
+border-color: transparent green transparent transparent;
+position:absolute;
+}
+.article img
+{ width: 300px;
+  height: 200px;
+}
+.article .titlee p
+{
+font-size: large;
+text-align: right;
+padding-top: 22px;
+font-weight: bold;
+color:black;
+padding-right: 68px;
+}
+
+.article p
+
+{ font-size: small;
+text-align: right;
+padding-top: 20px;
+color: red;
+}
+.article h7
+{
+font-weight: bold;
+font-family: fantasy;
+}
